@@ -1,0 +1,18 @@
+{"intents":  [
+  {"tag": "greeting",
+  "patterns": ["hello","hey","hi","Greeting","What's up?","how is it going?"],
+  "responses" ["hello","hey","What can I do for you?"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["goodbye","bye","see you bye","I am leaving"],
+  "responses" ["sad to see you go","talk to you later","Goodbye"]
+  },
+  {"tag": "Name",
+  "patterns": ["what is your name","what should i call you"],
+  "responses" ["You can call me Doctor","I am Doctor"]
+  },
+  {"tag": "Hours",
+  "patterns": ["What are your hours"],
+  "responses" ["24 hours"]
+  }
+]}
